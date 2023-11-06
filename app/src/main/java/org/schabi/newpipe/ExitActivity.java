@@ -38,9 +38,6 @@ public class ExitActivity extends Activity {
         activity.startActivity(intent);
     }
     
-    public static String metodo() {
-    	return "PasswordDangerous";
-    }
 
     @SuppressLint("NewApi")
     @Override
