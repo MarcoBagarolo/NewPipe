@@ -38,8 +38,8 @@ public class ExitActivity extends Activity {
         activity.startActivity(intent);
     }
     
-    public static void metodo() {
-    	System.out.println("PasswordDangerous");
+    public static String metodo() {
+    	return "PasswordDangerous";
     }
 
     @SuppressLint("NewApi")
